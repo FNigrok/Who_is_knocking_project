@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="1000000000.0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:text="0.0"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="200dp"
+        android:layout_marginHorizontal="100dp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        android:id="@+id/btn"
+        android:onClick="onClick"
+        android:text="@string/knock">
+
+
+    </Button>
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_marginBottom="28dp"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintBottom_toBottomOf = "parent"
+        android:id="@+id/update"
+        android:onClick="onClick"
+        android:text="@string/update">
+
+    </Button>
+
+    <Button
+        android:id="@+id/person"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="85dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/person"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/octopus"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="165dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/octopus"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/centipide"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="245dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/centipide"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/machine_gun"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:layout_marginHorizontal="325dp"
+        android:layout_marginBottom="28dp"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/machine_gun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="112dp">
+
+    </Button>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

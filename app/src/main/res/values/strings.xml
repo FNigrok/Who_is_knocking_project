@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="knock">Knock</string>
+    <string name="soldier">soldier</string>
+    <string name="update">update</string>
+    <string name="start_game">Start game</string>
+    <string name="who_is_knocking">Who is knocking</string>
+    <string name="exit">Exit</string>
+    <string name="person">person</string>
+    <string name="octopus">octopus</string>
+    <string name="machine_gun">gun</string>
+    <string name="centipide">centipide</string>
+    <string name="congratulations_you_broke_the_door">Congratulations! You broke the door</string>
+</resources>
