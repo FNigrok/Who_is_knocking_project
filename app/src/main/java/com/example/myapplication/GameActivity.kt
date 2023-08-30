@@ -18,7 +18,7 @@ class GameActivity : AppCompatActivity(), View.OnClickListener {
     var machie_gun = ButtonClass(20000.0, 200.0)
 
 
-    var knocks:Double = 1.0
+    var knocks:Double = 10000000000.0
     var money:Double = 0.0
     var hand:Double = 1.0
     var auto_knock = 0.0
